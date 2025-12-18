@@ -1,44 +1,21 @@
 ---
-
 title: "REMFI"
-
 ---
 
+REMFI (Renewable Energy Mechanical Failure Index) is an open, public engineering archive documenting mechanical failure modes in renewable energy systems, with an initial focus on utility-scale wind turbines.
 
+The project analyzes *why* mechanical systems fail in the real world — not just how they are designed — emphasizing fatigue, lubrication breakdown, vibration, misalignment, manufacturing defects, and maintenance-induced errors.
 
-REMFI (Renewable Energy Mechanical Failure Index) is an open, public archive that documents and analyzes mechanical failure modes in renewable energy hardware, starting with utility-scale wind turbine gearboxes and main bearings.
+REMFI publishes monthly, cited case studies with accompanying audio explainers and transcripts to make complex mechanical failures accessible without sacrificing technical rigor.
 
+### Scope
+- Wind turbine gearboxes and main bearings (initial focus)
+- Failure mode and effects analysis (FMEA-inspired)
+- Root cause vs contributing factors
+- Industry + peer-reviewed sources only
 
-
-What REMFI does
-
-\- publishes monthly, cited case studies (Case 001, Case 002, …)
-
-\- classifies failures by mechanism (fatigue, lubrication breakdown, vibration/resonance, misalignment, manufacturing defects)
-
-\- separates root cause vs contributing factors
-
-\- adds an audio explainer + transcript for each case
-
-
-
-What REMFI is not
-
-\- not marketing or hype
-
-\- not a news feed
-
-\- not speculation without sources
-
-
-
-Start here
-
-\- Methodology: how failures are classified and scored
-
-\- Cases: the case index (updated monthly)
-
-\- Sources: master bibliography and core references
-
-
-
+### Start Here
+- **Cases**: Monthly mechanical failure case studies  
+- **Methodology**: How failures are classified and analyzed  
+- **Sources**: Master bibliography and core references  
+- **About**: Project background and intent
