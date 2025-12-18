@@ -1,6 +1,12 @@
 [build]
-  command = "hugo -t PaperMod"
   publish = "public"
+  command = "hugo -t PaperMod --baseURL $URL"
+
+[context.deploy-preview]
+  command = "hugo -t PaperMod --baseURL $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "hugo -t PaperMod --baseURL $DEPLOY_PRIME_URL"
 
 [build.environment]
   HUGO_VERSION = "0.152.2"
