@@ -1,5 +1,29 @@
-baseURL = "https://example.org/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "REMFI"
 theme = "PaperMod"
 themesDir = "themes"
+
+[params]
+  defaultTheme = "auto"
+
+  [params.profileMode]
+    enabled = true
+    title = "REMFI"
+    subtitle = "Renewable Energy Mechanical Failure Index"
+
+    [[params.profileMode.buttons]]
+      name = "Cases"
+      url = "/cases/"
+
+    [[params.profileMode.buttons]]
+      name = "Methodology"
+      url = "/methodology/"
+
+    [[params.profileMode.buttons]]
+      name = "Sources"
+      url = "/sources/"
+
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
