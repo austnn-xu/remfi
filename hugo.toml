@@ -1,6 +1,10 @@
-baseURL = "remfi.netlify.app"
+baseURL = "https://694377c0b3c80205ab0fa423--remfi.netlify.app/"
 languageCode = "en-us"
 title = "REMFI"
+
+relativeURLs = true
+canonifyURLs = true
+
 theme = "PaperMod"
 themesDir = "themes"
 
