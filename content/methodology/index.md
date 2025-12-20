@@ -1,70 +1,40 @@
----
+**Methodology**
 
-title: "Methodology"
+REMFI studies mechanical failure using a consistent, repeatable workflow based on core ideas from **FMEA** and **reliability engineering**.
 
----
+**Failure classification**
 
+Each case is labeled by the main mechanical failure mechanism:
 
+- **fatigue** (rolling contact, bending, torsion)
+- **lubrication breakdown** (starvation, contamination, viscosity mismatch)
+- **vibration and resonance**
+- **misalignment and assembly error**
+- **manufacturing or material defects**
+- **maintenance-induced failure**
 
-REMFI analyzes mechanical failures using a structured, repeatable framework inspired by Failure Mode and Effects Analysis (FMEA) and reliability engineering practices.
+**System boundary**
 
+REMFI focuses on **mechanical hardware**. Electrical or software issues are included only when they **directly trigger or accelerate mechanical damage**.
 
+**Root cause vs contributing factors**
 
-\## Failure Classification
+Every case separates:
 
-Each case is categorized by its dominant mechanical failure mechanism:
+- **root cause:** the physical mechanism that initiates the failure
+- **contributing factors:** operating conditions, environment, or human actions that speed up the damage
 
-\- Fatigue (rolling contact, bending, torsional)
+**Source standards**
 
-\- Lubrication breakdown (starvation, contamination, viscosity mismatch)
+Cases rely on sources such as:
 
-\- Vibration and resonance
+- **peer-reviewed journals**
+- **national lab reports** (for example, **NREL**)
+- **OEM technical bulletins**
+- **industry reliability studies**
 
-\- Misalignment and assembly error
+Marketing content, speculation, and uncited claims are **not used**.
 
-\- Manufacturing or materials defects
+**Update cadence**
 
-\- Maintenance-induced failure
-
-
-
-\## System Boundary
-
-REMFI focuses on mechanical hardware rather than electrical or software faults, except where those faults directly contribute to mechanical damage.
-
-
-
-\## Root Cause vs Contributing Factors
-
-Each case explicitly separates:
-
-\- Root cause: the primary physical mechanism that initiated failure
-
-\- Contributing factors: environmental, operational, or human factors that accelerated damage
-
-
-
-\## Source Standards
-
-Accepted sources include:
-
-\- Peer-reviewed academic journals
-
-\- National laboratory reports (e.g., NREL)
-
-\- OEM technical bulletins
-
-\- Industry reliability studies
-
-
-
-Marketing material, speculation, and uncited claims are excluded.
-
-
-
-\## Update Cadence
-
-REMFI publishes approximately one new case per month and revises prior cases as new information becomes available.
-
-
-
+REMFI aims to publish **about one new case per month** and updates older cases when **better data or clearer explanations** become available.
