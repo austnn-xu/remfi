@@ -1,0 +1,28 @@
+/* Homepage button layout: turn buttons into a responsive grid */
+.profile .buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  width: min(980px, 92vw);
+  margin: 22px auto 0;
+}
+
+/* Button style: more padding + rounded corners */
+.profile .button {
+  padding: 18px 18px;
+  border-radius: 16px;
+  min-height: 64px;
+  justify-content: flex-start;
+}
+
+/* Text tweaks */
+.profile .button .button-inner {
+  font-size: 1.05rem;
+  letter-spacing: 0.2px;
+}
+
+/* Small hover lift */
+.profile .button:hover {
+  transform: translateY(-2px);
+  transition: transform 160ms ease;
+}

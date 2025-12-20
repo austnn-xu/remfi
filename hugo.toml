@@ -25,9 +25,5 @@ themesDir = "themes"
       url = "/methodology/"
 
     [[params.profileMode.buttons]]
-      name = "Sources"
-      url = "/sources/"
-
-    [[params.profileMode.buttons]]
       name = "About"
-      url = "/about/"
+      url = "/about/" 
