@@ -17,15 +17,15 @@ subtitle = "Renewable Energy Mechanical Failure Index"
 
 [[params.profileMode.buttons]]
 name = "Cases"
-url = "/cases/"
+url = "/remfi/cases/"
 
 [[params.profileMode.buttons]]
 name = "Methodology"
-url = "/methodology/"
+url = "/remfi/methodology/"
 
 [[params.profileMode.buttons]]
 name = "About"
-url = "/about/"
+url = "/remfi/about/"
 
 [menu]
 
