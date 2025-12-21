@@ -1,4 +1,6 @@
-baseURL = "https://austnn-xu.github.io/remfi/"
+baseURL = "/remfi/"
+relativeURLs = false
+canonifyURLs = false
 
 title = "REMFI"
 
