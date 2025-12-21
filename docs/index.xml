@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>REMFI</title>
+    <link>/</link>
+    <description>Recent content on REMFI</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/methodology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/methodology/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Methodology&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;REMFI studies mechanical failure using a consistent, repeatable workflow based on core ideas from &lt;strong&gt;FMEA&lt;/strong&gt; and &lt;strong&gt;reliability engineering&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Failure classification&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Each case is labeled by the main mechanical failure mechanism:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;fatigue&lt;/strong&gt; (rolling contact, bending, torsion)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;lubrication breakdown&lt;/strong&gt; (starvation, contamination, viscosity mismatch)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vibration and resonance&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;misalignment and assembly error&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;manufacturing or material defects&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;maintenance-induced failure&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;System boundary&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;REMFI focuses on &lt;strong&gt;mechanical hardware&lt;/strong&gt;. Electrical or software issues are included only when they &lt;strong&gt;directly trigger or accelerate mechanical damage&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About REMFI</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description>&lt;p&gt;REMFI is an independent, non-commercial engineering archive focused on mechanical failure analysis in renewable energy systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sources</title>
+      <link>/sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/sources/</guid>
+      <description>&lt;p&gt;This page contains REMFI’s master bibliography and core technical references.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
