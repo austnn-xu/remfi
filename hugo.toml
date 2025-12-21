@@ -1,13 +1,17 @@
+title = "REMFI"
+
 theme = "PaperMod"
 themesDir = "themes"
 
 [params]
 defaultTheme = "auto"
 
+
 [params.profileMode]
 enabled = true
 title = "REMFI"
 subtitle = "Renewable Energy Mechanical Failure Index"
+
 
 [[params.profileMode.buttons]]
 name = "Cases"
@@ -20,3 +24,26 @@ url = "/methodology/"
 [[params.profileMode.buttons]]
 name = "About"
 url = "/about/"
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Cases"
+url = "/cases/"
+weight = 2
+
+[[menu.main]]
+name = "Methodology"
+url = "/methodology/"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 4
+
