@@ -1,3 +1,5 @@
+baseURL = "https://austnn-xu.github.io/remfi/"
+
 title = "REMFI"
 
 theme = "PaperMod"
