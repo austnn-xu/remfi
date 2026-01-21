@@ -1,6 +1,6 @@
 baseURL = "/remfi/"
 relativeURLs = false
-canonifyURLs = false
+canonifyURLs = true
 
 title = "REMFI"
 
@@ -12,7 +12,7 @@ defaultTheme = "auto"
 
 
 [params.profileMode]
-enabled = true
+enabled = false
 title = "REMFI"
 subtitle = "Renewable Energy Mechanical Failure Index"
 
