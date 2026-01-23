@@ -1,0 +1,93 @@
+{{- define "main" -}}
+<link rel="stylesheet" href="{{ "css/landing.css" | relURL }}">
+<script defer src="{{ "js/landing.js" | relURL }}"></script>
+
+<div id="landing" class="snap-container">
+  <section class="snap-section hero" data-animate>
+    <div class="wrap">
+      <div class="kicker">Renewable Energy Mechanical Failure Index</div>
+      <h1 class="title">REMFI</h1>
+      <p class="subtitle">
+        A public engineering archive documenting real mechanical failures in renewable energy systems.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="#cases">Explore cases</a>
+        <a class="btn" href="#methodology">Methodology</a>
+      </div>
+      <div class="hint">scroll</div>
+    </div>
+  </section>
+
+  <section id="cases" class="snap-section" data-animate>
+    <div class="wrap">
+      <h2>Cases</h2>
+      <p class="section-sub">
+        Each case is sourced, technically scoped, and updated as new information emerges.
+      </p>
+
+      <div class="case-grid">
+        {{ $cases := where .Site.RegularPages "Section" "cases" }}
+        {{ range first 12 (sort $cases "Date" "desc") }}
+          <a class="case-card" href="{{ .RelPermalink }}">
+            <div class="case-title">{{ .Title }}</div>
+            {{ with .Params.summary }}<div class="case-summary">{{ . }}</div>{{ end }}
+            <div class="case-meta">
+              <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+              {{ with .Params.tags }}<span class="dot">•</span><span>{{ delimit . ", " }}</span>{{ end }}
+            </div>
+          </a>
+        {{ end }}
+      </div>
+
+      <div class="more-row">
+        <a class="btn" href="/cases/">View all cases</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="methodology" class="snap-section" data-animate>
+    <div class="wrap">
+      <h2>Methodology</h2>
+      <p class="section-sub">
+        Clear scope, reliability-style reasoning, and a hard line between root cause and contributing factors.
+      </p>
+
+      {{ with .Site.GetPage "/methodology" }}
+        <div class="rich">
+          {{ .Content }}
+        </div>
+      {{ else }}
+        <div class="rich">
+          <p>Create a page at content/methodology/_index.md (or content/methodology.md) and it will show here.</p>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section id="about" class="snap-section" data-animate>
+    <div class="wrap about">
+      <div class="about-left">
+        <h2>About</h2>
+        {{ with .Site.GetPage "/about" }}
+          <div class="rich">
+            {{ .Content }}
+          </div>
+        {{ else }}
+          <div class="rich">
+            <p>Create a page at content/about/_index.md (or content/about.md) and it will show here.</p>
+          </div>
+        {{ end }}
+      </div>
+
+      <div class="about-right">
+        <div class="portrait">
+          <img src="{{ "images/you.jpg" | relURL }}" alt="Portrait">
+        </div>
+        <div class="caption">
+          Founder / Editor
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+{{- end -}}

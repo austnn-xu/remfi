@@ -1,12 +1,7 @@
 ---
-
-title: "About REMFI"
-
+title: "About"
 ---
 
-
-
-REMFI is an independent, non-commercial engineering archive focused on mechanical failure analysis in renewable energy systems.
-
+Write your about text here.
 
 
