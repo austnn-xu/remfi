@@ -1,0 +1,58 @@
+.home-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.home-lead {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  max-width: 65ch;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.6rem;
+}
+
+p {
+  line-height: 1.7;
+  max-width: 70ch;
+}
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.home-card {
+  display: block;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--entry);
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.home-card h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.home-card p {
+  margin: 0;
+  opacity: 0.85;
+}
+
+.home-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}

@@ -6,6 +6,8 @@ theme = "PaperMod"
 canonifyURLs = false
 relativeURLs = false
 
+[params.profileMode]
+enabled = false
 
 
 [params]
@@ -36,3 +38,9 @@ weight = 3
 name = "About"
 url = "/about/"
 weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
