@@ -28,5 +28,6 @@ This case examines premature bearing failure in wind turbine gearboxes driven by
 
 The analysis focuses on surface fatigue initiation, damage progression, and the role of lubrication breakdown in accelerating wear and failure in renewable energy systems.
 
-[View full case study (PDF)](/pdf/REMFI_Case_02_Wind_Gearbox_Bearing_Micropitting.pdf)
+[View full case study (PDF)](https://remfiproject.org/pdf/REMFI_Case_02_Wind_Gearbox_Bearing_Micropitting.pdf)
+
 
